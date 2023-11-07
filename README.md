@@ -31,3 +31,11 @@ conda list
 ```bash
 conda remove --name ENV_NAME --all
 ```
+
+## pip
+
+install a specific version from github repo
+
+```bash
+pip install git+https://github.com/username/repo.git@1.2.3
+```

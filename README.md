@@ -1,11 +1,19 @@
 # conda
 
-## install a environment according to a yaml file
+## new environment
+
+### yaml file
 
 The environment name is chosen by the first line of the yaml file.(which is ```name: ENV_NAME```)
 
 ```bash
 conda env create -f environment.yml
+```
+
+### empty environment
+
+```bash
+conda create --name ENV_NAME python
 ```
 
 ## check for all installed environments

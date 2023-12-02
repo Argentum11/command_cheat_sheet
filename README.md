@@ -47,3 +47,11 @@ install a specific version from github repo
 ```bash
 pip install git+https://github.com/username/repo.git@1.2.3
 ```
+
+## export environment to yaml
+
+WARNING: the resulting yaml file contains a line metioning "prefix: ...\.conda\envs\ENV_NAME", showing your machine name and unique path to conda installation. Remember to remove it while publishing the yaml file.
+
+```bash
+conda env export > environment.yml
+```

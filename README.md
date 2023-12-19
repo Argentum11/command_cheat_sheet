@@ -55,3 +55,9 @@ WARNING: the resulting yaml file contains a line metioning "prefix: ...\.conda\e
 ```bash
 conda env export > environment.yml
 ```
+
+## remove unused packages
+
+```bash
+conda clean --all
+```
